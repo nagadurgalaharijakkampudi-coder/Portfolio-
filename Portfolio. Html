@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        img {
+            width: 150px;
+            border-radius: 50%;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: white;
+            border-radius: 8px;
+        }
+        h2 {
+            color: #333;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 8px;
+            margin: 5px 0;
+        }
+        button {
+            background: #333;
+            color: white;
+            padding: 10px;
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Your Name</h1>
+    <img src="https://via.placeholder.com/150" alt="Profile Picture">
+    <p>Short bio: I am a student passionate about web development.</p>
+</header>
+
+<section>
+    <h2>Education</h2>
+    <p>B.Tech in Computer Science</p>
+</section>
+
+<section>
+    <h2>Skills</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Projects</h2>
+    <ul>
+        <li>Portfolio Website</li>
+        <li>Calculator App</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Contact Me</h2>
+    <form>
+        <input type="text" placeholder="Your Name"><br>
+        <input type="email" placeholder="Your Email"><br>
+        <textarea placeholder="Your Message"></textarea><br>
+        <button type="submit">Send</button>
+    </form>
+</section>
+
+</body>
+</html>
+
+OUTPUT :
+--------------------------------------------------
+|                YOUR NAME                        |
+|          (Profile Picture - Circle)            |
+|  Short bio: I am a student passionate about    |
+|  web development.                             |
+--------------------------------------------------
+
+[ Education ]
+B.Tech in Computer Science
+
+[ Skills ]
+• HTML
+• CSS
+• JavaScript
+
+[ Projects ]
+• Portfolio Website
+• Calculator App
+
+[ Contact Me ]
+[ Your Name        ]
+[ Your Email       ]
+[ Your Message     ]
+[ Send Button      ]
